@@ -1,4 +1,3 @@
-# E2E_and_Backstop  
 # e2e test:  
 add a new task
 ![image missing](https://github.com/Geziii/E2E_and_Backstop/blob/master/imgs/add.jpg)  
