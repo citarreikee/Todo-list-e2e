@@ -10,24 +10,19 @@
       "label": "tablet",
       "width": 1024,
       "height": 768
-    },
-    {
-      "label": "desktop",
-      "width": 1920,
-      "height": 1080  
     }
   ],
   "onBeforeScript": "puppet/onBefore.js",
   "onReadyScript": "puppet/onReady.js",
   "scenarios": [
     {
-      "label": "todo app homepage",
+      "label": "BackstopJS Homepage",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "url": "http://localhost:8080/",
       "referenceUrl": "",
       "readyEvent": "",
       "readySelector": "",
-      "delay": 5000,
+      "delay": 0,
       "hideSelectors": [],
       "removeSelectors": [],
       "hoverSelector": "",
@@ -36,7 +31,7 @@
       "selectors": [],
       "selectorExpansion": true,
       "expect": 0,
-      "misMatchThreshold" : 10,
+      "misMatchThreshold" : 5,
       "requireSameDimensions": true
     }
   ],
